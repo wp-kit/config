@@ -4,7 +4,7 @@
     "keywords": ["wpkit", "config"],
     "license": "MIT",
     "require": {
-        "wpkit/finder": "dev-master"
+        "wp-kit/finder": "dev-master"
     },
 	"autoload": {
         "psr-4": {
