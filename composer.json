@@ -1,0 +1,18 @@
+{
+	"name": "wp-kit/config",
+    "description": "The config handler for wp-kit",
+    "keywords": ["wpkit", "config"],
+    "license": "MIT",
+    "require": {
+        "wpkit/finder": "dev-master"
+    },
+	"autoload": {
+        "psr-4": {
+            "WPKit\\Config\\": "src/Config"
+        }
+    },
+    "config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
