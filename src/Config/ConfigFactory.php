@@ -31,10 +31,8 @@ class ConfigFactory extends Repository implements IConfig
 	    if( ! $this->has($key) ) {
 		    
 		    $parts = explode('.', $key);
-		    $file = reset($parts);
-		    $path = $this->finder->find($file);
-		    $properties = include $path;
-		    $this->set($file, $properties);
+		    $name = reset($parts);
+		    $this->set($name, include $this->finder->find($name)->getRealPath());
 	        
 		}
 		
