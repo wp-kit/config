@@ -2,7 +2,7 @@
 
 This is a wp-kit component that handles config files.
 
-```wp-kit/config``` is fully compatible with [```Themosis```](http://framework.themosis.com/) and if you are using ```Themosis``` you'll notice it already has a [```PostTypeBuilder```](https://github.com/themosis/framework/blob/master/src/Themosis/PostType/PostTypeBuilder.php) and a [```TaxonomyBuilder```](https://github.com/themosis/framework/blob/master/src/Themosis/Taxonomy/TaxonomyBuilder.php) but ```wp-kit/registry``` just simplifies the process by providing an [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) approach to registering ```PostTypes``` and ```Taxonomies```.
+```wp-kit/config``` is fully compatible with [```Themosis```](http://framework.themosis.com/) and if you are using ```Themosis``` you'll notice it already has a [```ConfigFactory```](https://github.com/themosis/framework/blob/master/src/Themosis/Config/ConfigFactory.php) however this lacks [```ArrayAccess```](http://php.net/manual/en/class.arrayaccess.php) and only binds to ```$app['config.factory`]``` and not ```$app['config`]``` which means it is not compatible with most [```Illuminate```](https://github.com/illuminate) components. ```wp-kit/config``` solves these issues so you can benefit from ```Illuminate``` components when using ```Themosis```.
 
 ## Installation
 
