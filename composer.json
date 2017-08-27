@@ -1,7 +1,7 @@
 {
 	"name": "wp-kit/config",
     "description": "The config handler for wp-kit",
-    "keywords": ["wpkit", "config"],
+    "keywords": ["wp-kit", "wordpress", "themosis", "config"],
     "license": "MIT",
     "require": {
         "symfony/finder": "3.*",
