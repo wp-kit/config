@@ -32,7 +32,7 @@ return [
 ```
 ## Usage
 
-Simply add config files as ```theme/resources/config/*.config.php``` and reference the using the below snippet:
+Simply add config files as ```theme/resources/config/*.config.php``` and reference the below snippet to access config data in ```ArrayAccess``` fashion:
 
 ```php
 app('config')->get('anything.key.key');
