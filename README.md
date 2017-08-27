@@ -4,7 +4,7 @@ This is a wp-kit component that handles config files.
 
 ```wp-kit/config``` is fully compatible with [```Themosis```](http://framework.themosis.com/). 
 
-If you are using ```Themosis``` you'll notice it already has a [```ConfigFactory```](https://github.com/themosis/framework/blob/master/src/Themosis/Config/ConfigFactory.php) however this lacks [```ArrayAccess```](http://php.net/manual/en/class.arrayaccess.php) and only binds to ```$app['config.factory`]``` and not ```$app['config`]``` which means it is not compatible with most [```Illuminate```](https://github.com/illuminate) components. ```wp-kit/config``` solves these issues so you can benefit from ```Illuminate``` components when using ```Themosis```.
+If you are using ```Themosis``` you'll notice it already has a [```ConfigFactory```](https://github.com/themosis/framework/blob/master/src/Themosis/Config/ConfigFactory.php) however this lacks [```ArrayAccess```](http://php.net/manual/en/class.arrayaccess.php) and only binds to ```$app['config.factory`]``` and not ```$app['config`]``` which means it is not compatible with most [```Illuminate```](https://github.com/illuminate) components. ```wp-kit/config``` solves these issues so you can benefit from using ```Illuminate``` components when using ```Themosis```.
 
 ## Installation
 
