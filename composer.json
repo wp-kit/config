@@ -11,9 +11,5 @@
         "psr-4": {
             "WPKit\\Config\\": "src/Config"
         }
-    },
-    "config": {
-		"preferred-install": "dist"
-	},
-	"minimum-stability": "dev"
+    }
 }
