@@ -8,6 +8,11 @@ use Exception;
 class ConfigFinder
 {
 	
+	/**
+     * The array of folders to check for config giles
+     *
+     * @var array
+     */
 	protected $folders = array();
     
     /**

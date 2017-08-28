@@ -13,6 +13,12 @@ class ConfigFactory extends Repository implements IConfig
      */
     protected $finder;
 
+	/**
+     * The constructor
+     *
+     * @param WPKit\Config\ConfigFinder $finder
+     * @return void
+	 */
     public function __construct(ConfigFinder $finder)
     {
         $this->finder = $finder;
