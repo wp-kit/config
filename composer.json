@@ -3,6 +3,9 @@
     "description": "The config handler for wp-kit",
     "keywords": ["wp-kit", "wordpress", "themosis", "config"],
     "license": "MIT",
+	"config": {
+		"preferred-install": "dist"
+	},
     "require": {
         "symfony/finder": "3.*",
 	    "illuminate/config": "5.*"
