@@ -8,7 +8,7 @@
 	},
     "require": {
 	    "php": "^7.4",
-        "symfony/finder": "^4.0",
+        "symfony/finder": "^5.0",
 	    "illuminate/config": "^8.0"
     },
 	"autoload": {
